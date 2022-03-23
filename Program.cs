@@ -16,7 +16,9 @@ namespace GenericstestMaximum_Day13
             d = obj.findmaximumnumber();
             Console.WriteLine("maximum value" + d);
 
-           
+            TestNumbers<float> obj1 = new TestNumbers<float>(34.5f, 56.7f, 23.5f);
+            g = obj1.findmaximumnumber();
+            Console.WriteLine("maximum value" + g);
 
         }
     }
